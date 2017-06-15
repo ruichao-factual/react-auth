@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "`npm bin`/nodemon index.js --exec babel-node",
+    "build": "babel lib -d dist",
+    "serve": "node dist/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "bluebird": "^3.5.0",
+    "jsonwebtoken": "^7.4.1",
+    "koa": "^2.2.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-cors": "^0.0.16",
+    "koa-jwt": "^3.2.2",
+    "koa-logger": "^3.0.0",
+    "koa-morgan": "^1.0.1",
+    "koa-passport": "^3.0.0",
+    "koa-route": "^3.2.0",
+    "koa-router": "^7.2.0",
+    "mongoose": "^4.10.2",
+    "nodemon": "^1.11.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-latest": "^6.24.1"
+  }
+}
