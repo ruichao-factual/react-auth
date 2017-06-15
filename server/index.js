@@ -2,7 +2,6 @@ import Koa from 'koa';
 import bodyParser from 'koa-bodyparser';
 import morgan from 'koa-morgan';
 import mongoose from 'mongoose';
-import route from 'koa-route';
 import cors from 'koa-cors';
 
 import passport from './services/passport';
